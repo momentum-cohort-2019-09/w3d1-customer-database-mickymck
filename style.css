@@ -1,0 +1,42 @@
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 26px;
+    margin: 0;
+}
+
+#database {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 400px;
+}
+
+.profile {
+    max-width: 250px;
+    margin-bottom: 40px;
+}
+
+.profileImg {
+    height: 130px;
+}
+
+.profileName {
+    font-size: 22px;
+    font-style: bold;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.profileEmail {
+    color: #444444;
+    padding-bottom: 5px;
+}
