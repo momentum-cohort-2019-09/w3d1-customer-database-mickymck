@@ -9,11 +9,6 @@ h1 {
     font-size: 36px;
 }
 
-h2 {
-    font-size: 26px;
-    margin: 0;
-}
-
 #database {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -31,12 +26,20 @@ h2 {
 
 .profileName {
     font-size: 22px;
-    font-style: bold;
+    font-weight: 600;
     margin: 0;
     padding-bottom: 5px;
 }
 
 .profileEmail {
-    color: #444444;
+    color: #888888;
     padding-bottom: 5px;
+}
+
+.profileAdd1 {
+    text-transform: capitalize;
+}
+
+.profileAdd2 {
+    text-transform: capitalize;
 }
