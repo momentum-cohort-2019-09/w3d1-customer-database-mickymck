@@ -20,8 +20,12 @@ h1 {
     margin-bottom: 40px;
 }
 
-.profileImg {
+.imgDiv {
     height: 130px;
+}
+
+.profileImg {
+    border-radius: 40% 60% 40% 60%;
 }
 
 .profileName {
@@ -29,6 +33,7 @@ h1 {
     font-weight: 600;
     margin: 0;
     padding-bottom: 5px;
+    text-transform: capitalize;
 }
 
 .profileEmail {
